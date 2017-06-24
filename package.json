@@ -1,0 +1,21 @@
+{
+  "name": "tilas",
+  "version": "0.0.1",
+  "description": "RX and Node HTTP Test",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/pm2-dev start index.ts --auto-exit",
+    "postinstall": "./node_modules/.bin/pm2 install typescript"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.22",
+    "pm2": "^2.4.6",
+    "ts-node": "^3.0.4",
+    "typescript": "^2.3.4"
+  }
+}
